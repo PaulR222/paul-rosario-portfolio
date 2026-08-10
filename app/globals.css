@@ -132,31 +132,28 @@ h1 { margin: 0; font-family: var(--font-roboto), Arial, sans-serif; font-size: c
   background: var(--photo-bg);
   font-family: var(--font-roboto), Arial, sans-serif;
 }
-.photo-page::before, .photo-page::after { content: ""; position: fixed; z-index: -1; inset: -45vh -24vw; pointer-events: none; will-change: transform; }
+.photo-page::before, .photo-page::after { content: ""; position: fixed; z-index: -1; inset: 0; pointer-events: none; }
 .photo-page::before {
-  opacity: .58;
+  opacity: .72;
   background-image:
-    radial-gradient(circle at 16% 18%, rgba(255,255,255,.95) 0 1px, rgba(255,255,255,.22) 2px, transparent 4px),
-    radial-gradient(circle at 72% 64%, rgba(255,255,255,.85) 0 1px, transparent 3px),
-    radial-gradient(circle at 42% 88%, rgba(255,255,255,.7) 0 1px, transparent 2px),
-    repeating-linear-gradient(167deg, transparent 0 72px, rgba(255,255,255,.2) 73px, transparent 75px 164px);
-  background-size: 210px 300px, 280px 390px, 150px 230px, 250px 340px;
-  filter: drop-shadow(0 0 5px rgba(255,255,255,.45));
-  animation: star-rush 2.1s linear infinite;
+    radial-gradient(circle, rgba(255,255,255,.92) 0 1px, transparent 1.4px),
+    radial-gradient(circle, rgba(255,255,255,.58) 0 .7px, transparent 1.2px),
+    radial-gradient(circle, rgba(255,255,255,.46) 0 .6px, transparent 1px),
+    radial-gradient(circle, rgba(255,255,255,.35) 0 .5px, transparent .9px),
+    radial-gradient(circle, rgba(255,255,255,.28) 0 .45px, transparent .8px);
+  background-position: 13px 17px, 47px 81px, 91px 31px, 21px 113px, 128px 67px;
+  background-size: 137px 163px, 181px 211px, 223px 197px, 109px 131px, 257px 239px;
 }
 .photo-page::after {
-  opacity: .3;
+  opacity: .68;
   background-image:
-    radial-gradient(circle at 30% 24%, #fff 0 1px, transparent 2px),
-    radial-gradient(circle at 78% 76%, rgba(255,255,255,.82) 0 1px, transparent 2px),
-    repeating-linear-gradient(169deg, transparent 0 108px, rgba(255,255,255,.3) 109px, rgba(255,255,255,.08) 112px, transparent 120px 232px);
-  background-size: 130px 190px, 190px 270px, 330px 450px;
-  filter: blur(.25px);
-  animation: star-rush-near 1.15s linear infinite;
+    radial-gradient(circle, #fff 0 1px, rgba(255,255,255,.35) 2px, transparent 5px),
+    radial-gradient(ellipse, rgba(255,255,255,.9) 0 1px, transparent 4px),
+    radial-gradient(circle, rgba(255,255,255,.75) 0 .8px, transparent 2px);
+  background-position: 37px 51px, 173px 127px, 83px 219px;
+  background-size: 347px 419px, 463px 521px, 293px 367px;
 }
 .photo-grid { position: relative; z-index: 1; width: min(100%, var(--photo-max-width)); margin: 0 auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; column-gap: var(--photo-space); }
-@keyframes star-rush { from { transform: translate3d(-3%, -14%, 0); } to { transform: translate3d(3%, 14%, 0); } }
-@keyframes star-rush-near { from { transform: translate3d(-5%, -16%, 0); } to { transform: translate3d(5%, 16%, 0); } }
 .photo-entry { min-width: 0; width: 100%; margin: 0 0 var(--photo-space); }
 .photo-entry:nth-child(2n) { margin-top: clamp(22px, 5vw, 74px); }
 .photo-figure { margin: 0; }
@@ -184,6 +181,5 @@ h1 { margin: 0; font-family: var(--font-roboto), Arial, sans-serif; font-size: c
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .photo-page::before, .photo-page::after { animation: none; }
   .photo-frame:hover img { transform: none; }
 }
