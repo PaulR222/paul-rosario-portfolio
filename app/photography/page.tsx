@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import photosData from "../../src/data/photos.json";
 import type { Photo } from "../../src/types/photo";
 
@@ -35,12 +34,6 @@ export default function PhotographyPage() {
 
   return (
     <main className="photo-page">
-      <header className="photo-header">
-        <Link className="photo-wordmark" href="/" aria-label="Paul R Photography — return to portfolio">
-          Paul R Photography
-        </Link>
-      </header>
-
       {photos.length ? (
         <section className="photo-grid" aria-label="Photography archive">
           {photos.map((photo, index) => {
