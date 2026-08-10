@@ -1,6 +1,7 @@
 [
   {
     "id": "photo_c2ac37ec-6082-47f6-b018-c712e323da6c",
+    "archiveNumber": 1,
     "src": "/photography/2026/2026-04-16-unknown-location-001-1535w.webp",
     "width": 1535,
     "height": 2196,
@@ -22,6 +23,7 @@
   },
   {
     "id": "photo_68206542-5877-4fd6-acee-915a9844bd26",
+    "archiveNumber": 2,
     "src": "/photography/2026/2026-04-10-unknown-location-001-1536w.webp",
     "width": 1536,
     "height": 2048,
@@ -44,6 +46,7 @@
   },
   {
     "id": "photo_550bd94a-8fca-426d-9a21-cc1003fafdd9",
+    "archiveNumber": 4,
     "src": "/photography/undated/2026-08-10-unknown-location-001-2880w.webp",
     "width": 2880,
     "height": 3840,
@@ -71,6 +74,7 @@
   },
   {
     "id": "photo_8a754a87-607a-4f04-b27a-901775877676",
+    "archiveNumber": 3,
     "src": "/photography/undated/2026-08-05-unknown-location-001-2880w.webp",
     "width": 2880,
     "height": 3840,

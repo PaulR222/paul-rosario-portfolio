@@ -5,6 +5,7 @@ export type PhotoVariant = {
 
 export type Photo = {
   id: string;
+  archiveNumber: number;
   src: string;
   width?: number;
   height?: number;

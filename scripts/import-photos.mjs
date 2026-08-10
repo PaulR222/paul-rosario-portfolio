@@ -51,6 +51,7 @@ async function approximateLocation(latitude, longitude) {
 const files = await collectFiles(input);
 const photos = await readPhotos();
 const knownHashes = new Set(photos.map((photo) => photo.sourceHash).filter(Boolean));
+let nextArchiveNumber = Math.max(0, ...photos.map((photo) => photo.archiveNumber || 0)) + 1;
 let imported = 0;
 let skipped = 0;
 let failed = 0;
@@ -95,6 +96,7 @@ for (const file of files) {
 
     photos.push({
       id: `photo_${randomUUID()}`,
+      archiveNumber: nextArchiveNumber++,
       src: primary.src,
       width: primary.width,
       height: primaryHeight,

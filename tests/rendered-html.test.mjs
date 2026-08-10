@@ -22,6 +22,7 @@ test("server-renders the photography archive", async () => {
   const html = await response.text();
   assert.match(html, /Paul R Photography/i);
   assert.doesNotMatch(html, /\d+ photographs/i);
+  for (const archiveNumber of ["001", "002", "003", "004"]) assert.match(html, new RegExp(`data-archive-number="${archiveNumber}"`));
   assert.match(html, /Sunlit hand wearing a silver watch on a steering wheel/i);
   assert.doesNotMatch(html, /latitude|longitude/i);
 });

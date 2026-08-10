@@ -53,6 +53,9 @@ export default function PhotographyPage() {
               <article className={`photo-entry photo-entry--layer-${(index % 3) + 1}`} key={photo.id}>
                 <figure className="photo-figure">
                   <div className="photo-frame">
+                    <span className="photo-number" data-archive-number={String(photo.archiveNumber).padStart(3, "0")}>
+                      #{String(photo.archiveNumber).padStart(3, "0")}
+                    </span>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={photo.src}

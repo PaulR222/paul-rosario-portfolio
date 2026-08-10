@@ -10,6 +10,7 @@ const photos = await readPhotos().catch((error) => {
 if (!Array.isArray(photos)) errors.push("src/data/photos.json must contain an array.");
 const ids = new Set();
 const hashes = new Set();
+const archiveNumbers = new Set();
 
 for (const [index, photo] of (Array.isArray(photos) ? photos : []).entries()) {
   const label = `Photo ${index + 1}`;
@@ -17,6 +18,9 @@ for (const [index, photo] of (Array.isArray(photos) ? photos : []).entries()) {
   if (!photo.id || typeof photo.id !== "string") errors.push(`${label} has no valid id.`);
   else if (ids.has(photo.id)) errors.push(`${label} duplicates id "${photo.id}".`);
   else ids.add(photo.id);
+  if (!Number.isInteger(photo.archiveNumber) || photo.archiveNumber <= 0) errors.push(`${label} has no valid archiveNumber.`);
+  else if (archiveNumbers.has(photo.archiveNumber)) errors.push(`${label} duplicates archiveNumber ${photo.archiveNumber}.`);
+  else archiveNumbers.add(photo.archiveNumber);
   if (photo.sourceHash) {
     if (hashes.has(photo.sourceHash)) errors.push(`${label} duplicates an existing sourceHash.`);
     hashes.add(photo.sourceHash);
