@@ -20,8 +20,8 @@ test("server-renders the photography archive", async () => {
   const response = await render("/photography");
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /Paul Photography/i);
-  assert.match(html, /3 photographs/i);
+  assert.match(html, /Paul R Photography/i);
+  assert.doesNotMatch(html, /\d+ photographs/i);
   assert.match(html, /Sunlit hand wearing a silver watch on a steering wheel/i);
   assert.doesNotMatch(html, /latitude|longitude/i);
 });

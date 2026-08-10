@@ -36,10 +36,9 @@ export default function PhotographyPage() {
   return (
     <main className="photo-page">
       <header className="photo-header">
-        <Link className="photo-wordmark" href="/" aria-label="Paul Photography — return to portfolio">
-          Paul Photography
+        <Link className="photo-wordmark" href="/" aria-label="Paul R Photography — return to portfolio">
+          Paul R Photography
         </Link>
-        <p className="photo-count">{photos.length ? `${photos.length} photograph${photos.length === 1 ? "" : "s"}` : "Personal archive"}</p>
       </header>
 
       {photos.length ? (
