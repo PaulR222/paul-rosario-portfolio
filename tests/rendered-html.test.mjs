@@ -22,8 +22,8 @@ test("server-renders the photography archive", async () => {
   const html = await response.text();
   assert.doesNotMatch(html, /Paul R Photography/i);
   assert.doesNotMatch(html, /\d+ photographs/i);
-  for (const archiveNumber of ["001", "002", "003", "004"]) assert.match(html, new RegExp(`data-archive-number="${archiveNumber}"`));
-  const archivePositions = ["004", "003", "002", "001"].map((archiveNumber) => html.indexOf(`data-archive-number="${archiveNumber}"`));
+  for (const archiveNumber of ["001", "002", "003", "004", "005"]) assert.match(html, new RegExp(`data-archive-number="${archiveNumber}"`));
+  const archivePositions = ["005", "004", "003", "002", "001"].map((archiveNumber) => html.indexOf(`data-archive-number="${archiveNumber}"`));
   assert.deepEqual(archivePositions, archivePositions.toSorted((a, b) => a - b));
   assert.match(html, /Sunlit hand wearing a silver watch on a steering wheel/i);
   assert.doesNotMatch(html, /latitude|longitude/i);

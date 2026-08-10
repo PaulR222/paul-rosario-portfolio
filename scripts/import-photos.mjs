@@ -75,7 +75,7 @@ for (const file of files) {
     let sequence = 1;
     let stem;
     do { stem = `${datePrefix}-${locationSlug}-${String(sequence++).padStart(3, "0")}`; }
-    while (photos.some((photo) => photo.src.includes(`/${stem}.`)));
+    while (photos.some((photo) => photo.src.includes(`/${stem}-`)));
 
     const normalized = sharp(source).rotate();
     const metadata = await normalized.metadata();
