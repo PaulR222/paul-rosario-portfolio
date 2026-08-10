@@ -134,24 +134,18 @@ h1 { margin: 0; font-family: var(--font-roboto), Arial, sans-serif; font-size: c
 }
 .photo-page::before, .photo-page::after { content: ""; position: fixed; z-index: -1; inset: 0; pointer-events: none; }
 .photo-page::before {
-  opacity: .72;
-  background-image:
-    radial-gradient(circle, rgba(255,255,255,.92) 0 1px, transparent 1.4px),
-    radial-gradient(circle, rgba(255,255,255,.58) 0 .7px, transparent 1.2px),
-    radial-gradient(circle, rgba(255,255,255,.46) 0 .6px, transparent 1px),
-    radial-gradient(circle, rgba(255,255,255,.35) 0 .5px, transparent .9px),
-    radial-gradient(circle, rgba(255,255,255,.28) 0 .45px, transparent .8px);
-  background-position: 13px 17px, 47px 81px, 91px 31px, 21px 113px, 128px 67px;
-  background-size: 137px 163px, 181px 211px, 223px 197px, 109px 131px, 257px 239px;
+  background: #080808 url("/starfield.svg") center / cover no-repeat;
 }
 .photo-page::after {
-  opacity: .68;
+  opacity: .82;
   background-image:
-    radial-gradient(circle, #fff 0 1px, rgba(255,255,255,.35) 2px, transparent 5px),
-    radial-gradient(ellipse, rgba(255,255,255,.9) 0 1px, transparent 4px),
-    radial-gradient(circle, rgba(255,255,255,.75) 0 .8px, transparent 2px);
-  background-position: 37px 51px, 173px 127px, 83px 219px;
-  background-size: 347px 419px, 463px 521px, 293px 367px;
+    radial-gradient(circle at 7% 13%, #fff 0 1px, rgba(255,255,255,.35) 2px, transparent 5px),
+    radial-gradient(circle at 29% 71%, #fff 0 1px, rgba(255,255,255,.28) 2px, transparent 6px),
+    radial-gradient(circle at 52% 34%, #fff 0 1px, rgba(255,255,255,.3) 2px, transparent 5px),
+    radial-gradient(circle at 68% 87%, #fff 0 1px, rgba(255,255,255,.3) 2px, transparent 7px),
+    radial-gradient(circle at 83% 22%, #fff 0 1px, rgba(255,255,255,.32) 2px, transparent 5px),
+    radial-gradient(circle at 94% 61%, #fff 0 1px, rgba(255,255,255,.25) 2px, transparent 6px);
+  background-repeat: no-repeat;
 }
 .photo-grid { position: relative; z-index: 1; width: min(100%, var(--photo-max-width)); margin: 0 auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; column-gap: var(--photo-space); }
 .photo-entry { min-width: 0; width: 100%; margin: 0 0 var(--photo-space); }
