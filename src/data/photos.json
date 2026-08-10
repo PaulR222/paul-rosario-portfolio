@@ -43,6 +43,33 @@
     "sourceHash": "bf7a866dd8020b626a0e079da59ef7cf0eb3a52920b54adb8aa39bacdaf037f3"
   },
   {
+    "id": "photo_550bd94a-8fca-426d-9a21-cc1003fafdd9",
+    "src": "/photography/undated/2026-08-10-unknown-location-001-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Photograph from Paul Rosario's archive",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-08-10-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-08-10-unknown-location-001-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-08-10-unknown-location-001-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-08-10-unknown-location-001-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "b44b3226f0f0c2e28740f65694bcf747d2c73d9d50dd9972d0fbf130a7e65d9e"
+  },
+  {
     "id": "photo_8a754a87-607a-4f04-b27a-901775877676",
     "src": "/photography/undated/2026-08-05-unknown-location-001-2880w.webp",
     "width": 2880,
