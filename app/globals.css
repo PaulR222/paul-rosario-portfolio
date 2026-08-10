@@ -134,7 +134,7 @@ h1 { margin: 0; font-family: var(--font-roboto), Arial, sans-serif; font-size: c
 .photo-entry:nth-child(2n) { margin-top: clamp(22px, 5vw, 74px); }
 .photo-figure { margin: 0; }
 .photo-frame { position: relative; isolation: isolate; }
-.photo-number { position: absolute; z-index: 2; top: 14px; left: 15px; color: #fff; font-size: 11px; font-weight: 500; letter-spacing: .14em; line-height: 1; text-shadow: 0 1px 8px rgba(0,0,0,.7); }
+.photo-number { display: block; margin: 0 0 8px 2px; color: #d7d4ce; font-size: 11px; line-height: 1.6; letter-spacing: .025em; }
 .photo-frame::before { content: ""; position: absolute; z-index: -1; inset: 0; border: 1px solid rgba(255,255,255,.09); background: #111; }
 .photo-entry--layer-1 .photo-frame::before { transform: translate(6px, 7px); }
 .photo-entry--layer-2 .photo-frame::before { transform: translate(-5px, 8px); }
