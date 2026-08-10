@@ -132,20 +132,9 @@ h1 { margin: 0; font-family: var(--font-roboto), Arial, sans-serif; font-size: c
   background: var(--photo-bg);
   font-family: var(--font-roboto), Arial, sans-serif;
 }
-.photo-page::before, .photo-page::after { content: ""; position: fixed; z-index: -1; inset: 0; pointer-events: none; }
+.photo-page::before { content: ""; position: fixed; z-index: -1; inset: 0; pointer-events: none; }
 .photo-page::before {
-  background: #080808 url("/starfield.svg") center / cover no-repeat;
-}
-.photo-page::after {
-  opacity: .82;
-  background-image:
-    radial-gradient(circle at 7% 13%, #fff 0 1px, rgba(255,255,255,.35) 2px, transparent 5px),
-    radial-gradient(circle at 29% 71%, #fff 0 1px, rgba(255,255,255,.28) 2px, transparent 6px),
-    radial-gradient(circle at 52% 34%, #fff 0 1px, rgba(255,255,255,.3) 2px, transparent 5px),
-    radial-gradient(circle at 68% 87%, #fff 0 1px, rgba(255,255,255,.3) 2px, transparent 7px),
-    radial-gradient(circle at 83% 22%, #fff 0 1px, rgba(255,255,255,.32) 2px, transparent 5px),
-    radial-gradient(circle at 94% 61%, #fff 0 1px, rgba(255,255,255,.25) 2px, transparent 6px);
-  background-repeat: no-repeat;
+  background: #080808 url("/starfield-reference.png") center / cover no-repeat;
 }
 .photo-grid { position: relative; z-index: 1; width: min(100%, var(--photo-max-width)); margin: 0 auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; column-gap: var(--photo-space); }
 .photo-entry { min-width: 0; width: 100%; margin: 0 0 var(--photo-space); }
