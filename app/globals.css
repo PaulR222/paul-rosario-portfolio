@@ -76,13 +76,14 @@ h1 { margin: 0; font-family: var(--font-roboto), Arial, sans-serif; font-size: c
 
 @media (max-width: 900px) {
   .hero { min-height: 100svh; overflow: hidden auto; display: block; padding: 25px 18px 28px; }
-  .heading-line { width: 100%; }
-  .heading-line { display: flex; flex-direction: column; align-items: center; }
+  .hero-heading { display: flex; flex-direction: column; align-items: center; }
+  .heading-line { display: contents; }
   .heading-line h1 { order: 1; }
-  .email-link { position: relative; left: auto; top: auto; order: 2; display: block; width: min(240px, 100%); margin: 28px auto 0; transform: none; text-align: center; }
+  .role { order: 2; margin-top: 12px; }
+  .email-link { position: relative; left: auto; top: auto; order: 3; display: block; width: min(240px, 100%); margin: 28px auto 0; transform: none; text-align: center; }
   .email-link span { justify-content: center; }
   .resume-link { position: relative; right: auto; top: auto; display: block; width: min(210px, 100%); margin: 28px auto 0; transform: none; }
-  .resume-link { order: 3; text-align: center; }
+  .resume-link { order: 4; text-align: center; }
   .resume-link span { justify-content: center; }
   .intro-grid { width: 100%; min-height: 0; margin-top: 52px; grid-template-columns: 1fr; }
   .intro-copy { min-height: 330px; }
