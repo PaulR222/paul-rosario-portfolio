@@ -26,5 +26,6 @@ test("server-renders the photography archive", async () => {
   const archivePositions = ["005", "004", "003", "002", "001"].map((archiveNumber) => html.indexOf(`data-archive-number="${archiveNumber}"`));
   assert.deepEqual(archivePositions, archivePositions.toSorted((a, b) => a - b));
   assert.match(html, /Sunlit hand wearing a silver watch on a steering wheel/i);
+  assert.match(html, /photo-zoom-trigger/);
   assert.doesNotMatch(html, /latitude|longitude/i);
 });

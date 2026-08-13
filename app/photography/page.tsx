@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import photosData from "../../src/data/photos.json";
 import type { Photo } from "../../src/types/photo";
+import ZoomablePhoto from "./ZoomablePhoto";
 
 export const metadata: Metadata = {
   title: "Photography — Paul Rosario",
@@ -49,16 +50,14 @@ export default function PhotographyPage() {
                     #{String(photo.archiveNumber).padStart(3, "0")}
                   </span>
                   <div className="photo-frame">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <ZoomablePhoto
                       src={photo.src}
                       srcSet={srcSet}
                       sizes="(max-width: 720px) calc(100vw - 40px), (max-width: 1200px) 46vw, 560px"
                       width={photo.width}
                       height={photo.height}
                       alt={imageAlt(photo)}
-                      loading={index < 2 ? "eager" : "lazy"}
-                      decoding="async"
+                      eager={index < 2}
                     />
                   </div>
                   <figcaption>
