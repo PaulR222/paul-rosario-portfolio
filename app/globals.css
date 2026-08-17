@@ -13,10 +13,9 @@ button { font: inherit; }
 .heading-line { position: relative; width: min(1160px, 92vw); margin: 0 auto; }
 h1 { margin: 0; font-family: var(--font-roboto), Arial, sans-serif; font-size: clamp(68px, 8vw, 118px); line-height: .82; letter-spacing: -.065em; font-weight: 900; color: #111411; text-shadow: 0 8px 28px rgba(21,42,24,.06); }
 .resume-link { position: absolute; right: 0; top: 50%; width: 170px; padding: 14px 0 12px; color: #111411; text-align: left; text-decoration: none; transform: translateY(-50%); transition: color .3s, transform .3s; }
-.resume-link span { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; }
-.resume-link i { display: inline-block; font-size: 17px; font-style: normal; line-height: 1; transition: transform .3s; }
+.resume-link span { display: flex; align-items: center; font-size: 14px; font-weight: 700; }
 .resume-link small { display: block; margin-top: 8px; color: #777e77; font-size: 9px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; }
-.resume-link:hover, .resume-link:focus-visible { color: #0e991f; outline: none; }.resume-link:hover i, .resume-link:focus-visible i { transform: translate(2px, -2px); }
+.resume-link:hover, .resume-link:focus-visible { color: #0e991f; outline: none; }
 .email-link { position: absolute; left: 0; top: 50%; width: 210px; padding: 14px 0 12px; color: #111411; text-align: left; text-decoration: none; transform: translateY(-50%); transition: color .3s; }
 .email-link span { display: block; font-size: 14px; font-weight: 700; }
 .email-link:hover, .email-link:focus-visible { color: #0e991f; outline: none; }

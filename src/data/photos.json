@@ -1,5 +1,31 @@
 [
   {
+    "id": "photo_415d1f01-78fc-4ab4-9188-4159ec37429b",
+    "archiveNumber": 5,
+    "src": "/photography/undated/2026-08-10-unknown-location-002-2250w.webp",
+    "width": 2250,
+    "height": 3000,
+    "dateTaken": "2026-08-08T08:46:05.000Z",
+    "location": "Unknown location",
+    "camera": "Apple iPhone 16 Pro",
+    "alt": "Photograph from Paul Rosario's archive",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-08-10-unknown-location-002-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-08-10-unknown-location-002-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-08-10-unknown-location-002-2250w.webp",
+        "width": 2250
+      }
+    ],
+    "sourceHash": "c331dbc0fefba0eb9985b0212168e47c020c8b7b4ca59c8208a732f603f92427"
+  },
+  {
     "id": "photo_c2ac37ec-6082-47f6-b018-c712e323da6c",
     "archiveNumber": 1,
     "src": "/photography/2026/2026-04-16-unknown-location-001-1535w.webp",
@@ -45,32 +71,6 @@
     "sourceHash": "bf7a866dd8020b626a0e079da59ef7cf0eb3a52920b54adb8aa39bacdaf037f3"
   },
   {
-    "id": "photo_415d1f01-78fc-4ab4-9188-4159ec37429b",
-    "archiveNumber": 5,
-    "src": "/photography/undated/2026-08-10-unknown-location-002-2250w.webp",
-    "width": 2250,
-    "height": 3000,
-    "dateTaken": "2026-08-08T08:46:05.000Z",
-    "location": "Unknown location",
-    "camera": "Apple iPhone 16 Pro",
-    "alt": "Photograph from Paul Rosario's archive",
-    "variants": [
-      {
-        "src": "/photography/undated/2026-08-10-unknown-location-002-960w.webp",
-        "width": 960
-      },
-      {
-        "src": "/photography/undated/2026-08-10-unknown-location-002-1600w.webp",
-        "width": 1600
-      },
-      {
-        "src": "/photography/undated/2026-08-10-unknown-location-002-2250w.webp",
-        "width": 2250
-      }
-    ],
-    "sourceHash": "c331dbc0fefba0eb9985b0212168e47c020c8b7b4ca59c8208a732f603f92427"
-  },
-  {
     "id": "photo_550bd94a-8fca-426d-9a21-cc1003fafdd9",
     "archiveNumber": 4,
     "src": "/photography/undated/2026-08-10-unknown-location-001-2880w.webp",
@@ -97,6 +97,34 @@
       }
     ],
     "sourceHash": "b44b3226f0f0c2e28740f65694bcf747d2c73d9d50dd9972d0fbf130a7e65d9e"
+  },
+  {
+    "id": "photo_846c07d4-1e1f-474f-b459-aa42a4ae5b85",
+    "archiveNumber": 6,
+    "src": "/photography/undated/2026-08-17-unknown-location-001-3072w.webp",
+    "width": 3072,
+    "height": 4096,
+    "location": "Unknown location",
+    "alt": "Hand holding a bottle of mineral water and a plastic cup in sunlight",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-08-17-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-08-17-unknown-location-001-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-08-17-unknown-location-001-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-08-17-unknown-location-001-3072w.webp",
+        "width": 3072
+      }
+    ],
+    "sourceHash": "e1a10ed1a3939183e04eec7c57bd349b3f53503b89e2c97ed0b1e9d844a51ab2"
   },
   {
     "id": "photo_8a754a87-607a-4f04-b27a-901775877676",

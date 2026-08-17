@@ -70,7 +70,7 @@ export function HeroSection() {
           </a>
           <motion.h1 initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.2, 0.8, 0.2, 1] }}>Paul Rosario</motion.h1>
           <a className="resume-link" href="/paul-rosario-resume.pdf" target="_blank" rel="noreferrer">
-            <span>Résumé <i aria-hidden="true">↗</i></span>
+            <span>Résumé</span>
             <small>Updated August 2026</small>
           </a>
         </div>
