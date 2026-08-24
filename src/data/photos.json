@@ -153,5 +153,25 @@
       }
     ],
     "sourceHash": "7c5564ebec8c36f608f9f84bb4fbab978820a84801d07d12795648c38424243b"
+  },
+  {
+    "id": "photo_a05fa12a-6f22-44d3-818e-8cab338b0679",
+    "archiveNumber": 7,
+    "src": "/photography/undated/2026-08-24-unknown-location-001-1280w.webp",
+    "width": 1280,
+    "height": 864,
+    "location": "Unknown location",
+    "alt": "Tan pickup truck parked beneath a sunlit gas station canopy",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-08-24-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-08-24-unknown-location-001-1280w.webp",
+        "width": 1280
+      }
+    ],
+    "sourceHash": "d5122334df41ff554c8e1b01c2510043b32609489203965c1b7ef1d1a750df5d"
   }
 ]
