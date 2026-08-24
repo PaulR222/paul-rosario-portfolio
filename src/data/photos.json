@@ -173,5 +173,53 @@
       }
     ],
     "sourceHash": "d5122334df41ff554c8e1b01c2510043b32609489203965c1b7ef1d1a750df5d"
+  },
+  {
+    "id": "photo_d8221ec6-427d-4129-8805-8a476b3d799a",
+    "archiveNumber": 9,
+    "src": "/photography/undated/2026-08-24-unknown-location-002-1818w.webp",
+    "width": 1818,
+    "height": 1228,
+    "location": "Unknown location",
+    "alt": "Black-and-white cat crouching beneath a bed beside colorful spring toys",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-08-24-unknown-location-002-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-08-24-unknown-location-002-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-08-24-unknown-location-002-1818w.webp",
+        "width": 1818
+      }
+    ],
+    "sourceHash": "8ec4e5de0b0f14640e721ec16ff00317ba7aa0ab4822e7d3717c18ef27608cd0"
+  },
+  {
+    "id": "photo_f1308685-2197-446f-8216-e892b84de0d3",
+    "archiveNumber": 8,
+    "src": "/photography/undated/2026-08-24-unknown-location-003-1818w.webp",
+    "width": 1818,
+    "height": 1228,
+    "location": "Unknown location",
+    "alt": "Bag and tangled earphones illuminated by blue-green light inside a car",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-08-24-unknown-location-003-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-08-24-unknown-location-003-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-08-24-unknown-location-003-1818w.webp",
+        "width": 1818
+      }
+    ],
+    "sourceHash": "8090d75138499712c190811d95ecd350db4a64d143298acc9c06781f73d2ca43"
   }
 ]
