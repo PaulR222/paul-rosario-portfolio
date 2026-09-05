@@ -175,6 +175,34 @@
     "sourceHash": "d5122334df41ff554c8e1b01c2510043b32609489203965c1b7ef1d1a750df5d"
   },
   {
+    "id": "photo_b2197529-5309-4f69-abd4-2fabd5514f13",
+    "archiveNumber": 11,
+    "src": "/photography/undated/2026-09-05-unknown-location-002-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Person in a cream linen shirt and light jeans taking a mirror photograph",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-09-05-unknown-location-002-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-09-05-unknown-location-002-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-09-05-unknown-location-002-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-09-05-unknown-location-002-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "58ecb82216b24ad74c0802938d780bb87ee62a1f17be6ef98161e1184bf18a57"
+  },
+  {
     "id": "photo_d8221ec6-427d-4129-8805-8a476b3d799a",
     "archiveNumber": 9,
     "src": "/photography/undated/2026-08-24-unknown-location-002-1818w.webp",
@@ -197,6 +225,26 @@
       }
     ],
     "sourceHash": "8ec4e5de0b0f14640e721ec16ff00317ba7aa0ab4822e7d3717c18ef27608cd0"
+  },
+  {
+    "id": "photo_e516b8c6-212b-45e5-ae6a-1bdc34a82689",
+    "archiveNumber": 10,
+    "src": "/photography/undated/2026-09-05-unknown-location-001-1280w.webp",
+    "width": 1280,
+    "height": 960,
+    "location": "Unknown location",
+    "alt": "White-and-tabby cat resting on weathered blue porch steps",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-09-05-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-09-05-unknown-location-001-1280w.webp",
+        "width": 1280
+      }
+    ],
+    "sourceHash": "4ed68319bd69817748e6db8b8522f54a219a04595fa3ea15fc1527642a8ceaf4"
   },
   {
     "id": "photo_f1308685-2197-446f-8216-e892b84de0d3",
