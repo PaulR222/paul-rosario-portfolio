@@ -203,6 +203,34 @@
     "sourceHash": "58ecb82216b24ad74c0802938d780bb87ee62a1f17be6ef98161e1184bf18a57"
   },
   {
+    "id": "photo_bef28781-0c8f-4d25-91de-c636429b472e",
+    "archiveNumber": 12,
+    "src": "/photography/undated/2026-09-15-unknown-location-001-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Black cat lying on a patterned rug beside a dark upholstered seat",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-09-15-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-09-15-unknown-location-001-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-09-15-unknown-location-001-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-09-15-unknown-location-001-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "ddefd44d688e5307684b614d83542e3ec1133c3afac84d7f152027f85f095ad5"
+  },
+  {
     "id": "photo_d8221ec6-427d-4129-8805-8a476b3d799a",
     "archiveNumber": 9,
     "src": "/photography/undated/2026-08-24-unknown-location-002-1818w.webp",
