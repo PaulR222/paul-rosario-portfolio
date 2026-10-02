@@ -203,6 +203,26 @@
     "sourceHash": "58ecb82216b24ad74c0802938d780bb87ee62a1f17be6ef98161e1184bf18a57"
   },
   {
+    "id": "photo_b38db614-e199-4ad6-8216-a3ec8a93f476",
+    "archiveNumber": 13,
+    "src": "/photography/undated/2026-10-02-unknown-location-001-1280w.webp",
+    "width": 1280,
+    "height": 960,
+    "location": "Unknown location",
+    "alt": "Calico cat resting across a person's lap on a brown leather couch",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-02-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-02-unknown-location-001-1280w.webp",
+        "width": 1280
+      }
+    ],
+    "sourceHash": "e232f25971a8a063348c11e270ec92c70487d1c730a9a315f18e37f9c5b0de78"
+  },
+  {
     "id": "photo_bef28781-0c8f-4d25-91de-c636429b472e",
     "archiveNumber": 12,
     "src": "/photography/undated/2026-09-15-unknown-location-001-2880w.webp",
@@ -229,6 +249,34 @@
       }
     ],
     "sourceHash": "ddefd44d688e5307684b614d83542e3ec1133c3afac84d7f152027f85f095ad5"
+  },
+  {
+    "id": "photo_c866c0fc-6768-4759-9337-d5796d310d0c",
+    "archiveNumber": 14,
+    "src": "/photography/undated/2026-10-02-unknown-location-002-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Breaded cutlet over rice with sauces, scallions, lemon, and roasted vegetables",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-02-unknown-location-002-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-02-unknown-location-002-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-02-unknown-location-002-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-02-unknown-location-002-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "2ad7764ab7d91b62b3c472e46cefab414e4dd962a30207ef7acf52ff1a0c6216"
   },
   {
     "id": "photo_d8221ec6-427d-4129-8805-8a476b3d799a",
