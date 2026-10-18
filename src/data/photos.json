@@ -71,6 +71,34 @@
     "sourceHash": "bf7a866dd8020b626a0e079da59ef7cf0eb3a52920b54adb8aa39bacdaf037f3"
   },
   {
+    "id": "photo_48855638-9dc1-45aa-8ebd-76f617bc7021",
+    "archiveNumber": 19,
+    "src": "/photography/undated/2026-10-18-unknown-location-005-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Self-portrait reflected in a convex parking garage mirror",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-005-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-005-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-005-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-005-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "0fa30907c78518d733c435b5b590943813874c1766ca5b88042ef82b5398810e"
+  },
+  {
     "id": "photo_550bd94a-8fca-426d-9a21-cc1003fafdd9",
     "archiveNumber": 4,
     "src": "/photography/undated/2026-08-10-unknown-location-001-2880w.webp",
@@ -97,6 +125,34 @@
       }
     ],
     "sourceHash": "b44b3226f0f0c2e28740f65694bcf747d2c73d9d50dd9972d0fbf130a7e65d9e"
+  },
+  {
+    "id": "photo_6938193f-62d5-4fe1-b0fb-ac22cf5ee94a",
+    "archiveNumber": 17,
+    "src": "/photography/undated/2026-10-18-unknown-location-003-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Long white industrial corridor leading into a dark passage",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-003-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-003-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-003-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-003-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "4fd576039ae69a37fc87a44e2d579da0d25d9a0c5e6280f87a98370b0fa028c9"
   },
   {
     "id": "photo_846c07d4-1e1f-474f-b459-aa42a4ae5b85",
@@ -127,6 +183,34 @@
     "sourceHash": "e1a10ed1a3939183e04eec7c57bd349b3f53503b89e2c97ed0b1e9d844a51ab2"
   },
   {
+    "id": "photo_85b1727d-715d-4b03-8351-90e58ee86614",
+    "archiveNumber": 16,
+    "src": "/photography/undated/2026-10-18-unknown-location-002-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Can of peach prebiotic iced tea and sunglasses on a sidewalk cafe table",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-002-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-002-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-002-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-002-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "023e477fe49c74cbb49970f97ca8a5b5dfc45ce5eec3f721f4e6b422c45e0e5b"
+  },
+  {
     "id": "photo_8a754a87-607a-4f04-b27a-901775877676",
     "archiveNumber": 3,
     "src": "/photography/undated/2026-08-05-unknown-location-001-2880w.webp",
@@ -155,6 +239,26 @@
     "sourceHash": "7c5564ebec8c36f608f9f84bb4fbab978820a84801d07d12795648c38424243b"
   },
   {
+    "id": "photo_9cf6cb7c-8442-455a-9c51-6494593495ef",
+    "archiveNumber": 15,
+    "src": "/photography/undated/2026-10-18-unknown-location-001-1280w.webp",
+    "width": 1280,
+    "height": 960,
+    "location": "Unknown location",
+    "alt": "Open pickup truck bed carrying two black travel bags on a residential street",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-001-1280w.webp",
+        "width": 1280
+      }
+    ],
+    "sourceHash": "a772c5d3c824c3258d69d978596f0220fd6a14b312004a2f899d3c67cd2ab4bc"
+  },
+  {
     "id": "photo_a05fa12a-6f22-44d3-818e-8cab338b0679",
     "archiveNumber": 7,
     "src": "/photography/undated/2026-08-24-unknown-location-001-1280w.webp",
@@ -173,6 +277,82 @@
       }
     ],
     "sourceHash": "d5122334df41ff554c8e1b01c2510043b32609489203965c1b7ef1d1a750df5d"
+  },
+  {
+    "id": "photo_a69eef1d-5aa9-46eb-b011-2b78998037c1",
+    "archiveNumber": 18,
+    "src": "/photography/undated/2026-10-18-unknown-location-004-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Black cat sitting beneath a metal railing at the edge of a wooded area",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-004-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-004-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-004-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-004-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "766cb2ac11219e1e212077411f4de0950b2e16a37c70a6c44a1cf659962ac113"
+  },
+  {
+    "id": "photo_a71ef31b-abaf-4cda-800a-afe85296160d",
+    "archiveNumber": 22,
+    "src": "/photography/undated/2026-10-18-unknown-location-008-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Raspberry Pi boot screen displayed above a convenience store checkout",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-008-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-008-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-008-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-008-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "ccb8d30693acad46526f32742d7bac054b43c9273713283aeb75dcd2f9accbed"
+  },
+  {
+    "id": "photo_ab79a4bd-ac75-4ba4-ab2c-87f740931617",
+    "archiveNumber": 20,
+    "src": "/photography/undated/2026-10-18-unknown-location-006-1280w.webp",
+    "width": 1280,
+    "height": 960,
+    "location": "Unknown location",
+    "alt": "Small long-haired dog perched on a vehicle dashboard",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-006-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-006-1280w.webp",
+        "width": 1280
+      }
+    ],
+    "sourceHash": "195bfcad43a856a4c0a9e3889b47d46439e4a46b2383f63a5c6fabe90edab63f"
   },
   {
     "id": "photo_b2197529-5309-4f69-abd4-2fabd5514f13",
@@ -323,6 +503,26 @@
     "sourceHash": "4ed68319bd69817748e6db8b8522f54a219a04595fa3ea15fc1527642a8ceaf4"
   },
   {
+    "id": "photo_e770542e-28db-48c3-8ffb-6c43bf5cdc0a",
+    "archiveNumber": 21,
+    "src": "/photography/undated/2026-10-18-unknown-location-007-1280w.webp",
+    "width": 1280,
+    "height": 960,
+    "location": "Unknown location",
+    "alt": "Distant city skyline silhouetted against an orange evening sky",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-007-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-007-1280w.webp",
+        "width": 1280
+      }
+    ],
+    "sourceHash": "ae52b423ebc2bbdab6d0d428d68ab2c7a24bc44cbccc080fee643687cf36d45b"
+  },
+  {
     "id": "photo_f1308685-2197-446f-8216-e892b84de0d3",
     "archiveNumber": 8,
     "src": "/photography/undated/2026-08-24-unknown-location-003-1818w.webp",
@@ -345,5 +545,33 @@
       }
     ],
     "sourceHash": "8090d75138499712c190811d95ecd350db4a64d143298acc9c06781f73d2ca43"
+  },
+  {
+    "id": "photo_fec598ff-4035-49cd-8053-c23e20255516",
+    "archiveNumber": 23,
+    "src": "/photography/undated/2026-10-18-unknown-location-009-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Three closed Apple laptops arranged beside a backpack on a couch",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-009-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-009-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-009-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-18-unknown-location-009-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "aa9112f4a44c149540defd492bd7095e7a7245d6d37be298bc3d4e3acdd0cdf6"
   }
 ]
