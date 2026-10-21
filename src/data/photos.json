@@ -403,6 +403,34 @@
     "sourceHash": "e232f25971a8a063348c11e270ec92c70487d1c730a9a315f18e37f9c5b0de78"
   },
   {
+    "id": "photo_bb13f3d9-b451-49dc-bd1e-d2c52188383b",
+    "archiveNumber": 24,
+    "src": "/photography/undated/2026-10-21-unknown-location-001-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Hand holding a black Oklahoma City Thunder cap above a paperback book",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-21-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-21-unknown-location-001-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-21-unknown-location-001-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-21-unknown-location-001-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "00637211931ea1811cd2da4d47ff550564032a949f3018cd547bef0a0874f1d8"
+  },
+  {
     "id": "photo_bef28781-0c8f-4d25-91de-c636429b472e",
     "archiveNumber": 12,
     "src": "/photography/undated/2026-09-15-unknown-location-001-2880w.webp",
@@ -545,6 +573,34 @@
       }
     ],
     "sourceHash": "8090d75138499712c190811d95ecd350db4a64d143298acc9c06781f73d2ca43"
+  },
+  {
+    "id": "photo_fb2cb6f0-45a8-44b6-a98e-65fd6be1bf6e",
+    "archiveNumber": 25,
+    "src": "/photography/undated/2026-10-21-unknown-location-002-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "location": "Unknown location",
+    "alt": "Pair of worn brown leather cowboy boots arranged on a white countertop",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-10-21-unknown-location-002-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-10-21-unknown-location-002-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-10-21-unknown-location-002-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-10-21-unknown-location-002-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "50a0c8abe8191de56ed42013b0ed2f943845e8757d612c9938d88da37221ac4f"
   },
   {
     "id": "photo_fec598ff-4035-49cd-8053-c23e20255516",
