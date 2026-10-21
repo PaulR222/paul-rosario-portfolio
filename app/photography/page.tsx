@@ -22,7 +22,7 @@ function dateValue(date?: string) {
 
 function humanDate(date?: string) {
   const value = dateValue(date);
-  return value === Number.NEGATIVE_INFINITY ? "Date unknown" : dateFormatter.format(value);
+  return value === Number.NEGATIVE_INFINITY ? undefined : dateFormatter.format(value);
 }
 
 function imageAlt(photo: Photo) {
@@ -40,6 +40,7 @@ export default function PhotographyPage() {
             const location = photo.location?.trim() || "Unknown location";
             const variants = photo.variants?.toSorted((a, b) => a.width - b.width);
             const srcSet = variants?.map((variant) => `${variant.src} ${variant.width}w`).join(", ");
+            const primaryMetadata = [location, humanDate(photo.dateTaken)].filter(Boolean).join(" · ");
             const cameraLine = [photo.camera, photo.lens].filter(Boolean).join(" · ");
 
             return (
@@ -64,7 +65,7 @@ export default function PhotographyPage() {
                   </div>
                   <figcaption>
                     {photo.caption && <p className="photo-caption">{photo.caption}</p>}
-                    <p className="photo-primary-meta">{location} <span aria-hidden="true">·</span> {humanDate(photo.dateTaken)}</p>
+                    {primaryMetadata && <p className="photo-primary-meta">{primaryMetadata}</p>}
                     {cameraLine && <p className="photo-secondary-meta">{cameraLine}</p>}
                   </figcaption>
                 </figure>
