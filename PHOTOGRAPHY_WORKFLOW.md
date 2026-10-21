@@ -26,7 +26,7 @@ Filenames follow `YYYY-MM-DD-location-sequence-width.webp`, for example `2026-04
 
 ### Location and privacy
 
-Coordinates are used only in memory during import and are not written to photo metadata. Without a geocoding key, the public location becomes `Unknown location`. To enable approximate OpenCage reverse geocoding, copy `.env.example` to `.env.local`, add `GEOCODING_API_KEY`, and load it in your shell before importing. The importer keeps only a city/park/county plus state/country—never an address or exact coordinates.
+Coordinates are used only in memory during import and are not written to photo metadata. Without a geocoding key, location metadata is omitted. To enable approximate OpenCage reverse geocoding, copy `.env.example` to `.env.local`, add `GEOCODING_API_KEY`, and load it in your shell before importing. The importer keeps only a city/park/county plus state/country—never an address or exact coordinates.
 
 Review every generated location. Override it by editing `location` in `src/data/photos.json`; this will not be overwritten later. Also replace generated `alt` text with a concise visual description and add a `caption` when useful.
 

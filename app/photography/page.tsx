@@ -26,7 +26,7 @@ function humanDate(date?: string) {
 }
 
 function imageAlt(photo: Photo) {
-  return photo.alt || photo.caption || `Photograph taken in ${photo.location || "an unknown location"}`;
+  return photo.alt || photo.caption || (photo.location ? `Photograph taken in ${photo.location}` : "Photograph from Paul Rosario's archive");
 }
 
 export default function PhotographyPage() {
@@ -37,7 +37,8 @@ export default function PhotographyPage() {
       {photos.length ? (
         <section className="photo-grid" aria-label="Photography archive">
           {photos.map((photo, index) => {
-            const location = photo.location?.trim() || "Unknown location";
+            const storedLocation = photo.location?.trim();
+            const location = storedLocation?.toLowerCase() === "unknown location" ? undefined : storedLocation;
             const variants = photo.variants?.toSorted((a, b) => a.width - b.width);
             const srcSet = variants?.map((variant) => `${variant.src} ${variant.width}w`).join(", ");
             const primaryMetadata = [location, humanDate(photo.dateTaken)].filter(Boolean).join(" · ");

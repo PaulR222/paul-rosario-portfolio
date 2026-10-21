@@ -28,6 +28,6 @@ test("server-renders the photography archive", async () => {
   assert.match(html, /Sunlit hand wearing a silver watch on a steering wheel/i);
   assert.match(html, /photo-image/);
   assert.doesNotMatch(html, /photo-zoom-trigger|photo-lightbox/);
-  assert.doesNotMatch(html, /Date unknown|Camera unknown/i);
+  assert.doesNotMatch(html, /Date unknown|Camera unknown|Unknown location/i);
   assert.doesNotMatch(html, /latitude|longitude/i);
 });

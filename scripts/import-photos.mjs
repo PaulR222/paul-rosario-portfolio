@@ -101,7 +101,7 @@ for (const file of files) {
       width: primary.width,
       height: primaryHeight,
       ...(dateTaken && { dateTaken }),
-      location: location || "Unknown location",
+      ...(location && { location }),
       ...(camera && { camera }),
       ...(exif?.LensModel && { lens: String(exif.LensModel).trim() }),
       alt: location ? `Photograph taken in ${location}` : "Photograph from Paul Rosario's archive",
