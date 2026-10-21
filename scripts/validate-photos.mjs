@@ -1,4 +1,5 @@
 import path from "node:path";
+import sharp from "sharp";
 import { exists, publicFilePath, readPhotos } from "./photo-utils.mjs";
 
 const errors = [];
@@ -11,6 +12,17 @@ if (!Array.isArray(photos)) errors.push("src/data/photos.json must contain an ar
 const ids = new Set();
 const hashes = new Set();
 const archiveNumbers = new Set();
+const checkedImages = new Set();
+
+async function validateLocalImage(file, label) {
+  if (checkedImages.has(file)) return;
+  checkedImages.add(file);
+  try {
+    await sharp(file).stats();
+  } catch (error) {
+    errors.push(`${label} references an unreadable image: ${path.relative(process.cwd(), file)} (${error.message})`);
+  }
+}
 
 for (const [index, photo] of (Array.isArray(photos) ? photos : []).entries()) {
   const label = `Photo ${index + 1}`;
@@ -32,12 +44,14 @@ for (const [index, photo] of (Array.isArray(photos) ? photos : []).entries()) {
     const file = publicFilePath(photo.src);
     if (!file) errors.push(`${label} uses an unsafe or unsupported local src: ${photo.src}`);
     else if (!(await exists(file))) errors.push(`${label} references a missing file: ${path.relative(process.cwd(), file)}`);
+    else await validateLocalImage(file, label);
   }
   if (photo.dateTaken && Number.isNaN(Date.parse(photo.dateTaken))) errors.push(`${label} has an invalid dateTaken value.`);
   for (const field of ["width", "height"]) if (photo[field] != null && (!Number.isInteger(photo[field]) || photo[field] <= 0)) errors.push(`${label} has an invalid ${field}.`);
   for (const variant of photo.variants || []) {
     const file = publicFilePath(variant.src);
     if (!file || !(await exists(file))) errors.push(`${label} has a missing or unsafe variant: ${variant.src}`);
+    else await validateLocalImage(file, label);
   }
 }
 
