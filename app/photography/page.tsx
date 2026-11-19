@@ -30,14 +30,7 @@ function imageAlt(photo: Photo) {
 }
 
 export default function PhotographyPage() {
-  const photos = (photosData as Photo[]).toSorted((a, b) => {
-    const aDate = dateValue(a.dateTaken);
-    const bDate = dateValue(b.dateTaken);
-    if (aDate === Number.NEGATIVE_INFINITY && bDate === Number.NEGATIVE_INFINITY) return a.archiveNumber - b.archiveNumber;
-    if (aDate === Number.NEGATIVE_INFINITY) return -1;
-    if (bDate === Number.NEGATIVE_INFINITY) return 1;
-    return bDate - aDate || a.archiveNumber - b.archiveNumber;
-  });
+  const photos = (photosData as Photo[]).toSorted((a, b) => a.archiveNumber - b.archiveNumber);
 
   return (
     <main className="photo-page">
