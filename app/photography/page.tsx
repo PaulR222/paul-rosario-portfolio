@@ -30,7 +30,14 @@ function imageAlt(photo: Photo) {
 }
 
 export default function PhotographyPage() {
-  const photos = (photosData as Photo[]).toSorted((a, b) => b.archiveNumber - a.archiveNumber);
+  const photos = (photosData as Photo[]).toSorted((a, b) => {
+    const aDate = dateValue(a.dateTaken);
+    const bDate = dateValue(b.dateTaken);
+    if (aDate === Number.NEGATIVE_INFINITY && bDate === Number.NEGATIVE_INFINITY) return a.archiveNumber - b.archiveNumber;
+    if (aDate === Number.NEGATIVE_INFINITY) return -1;
+    if (bDate === Number.NEGATIVE_INFINITY) return 1;
+    return bDate - aDate || a.archiveNumber - b.archiveNumber;
+  });
 
   return (
     <main className="photo-page">
@@ -51,18 +58,35 @@ export default function PhotographyPage() {
                     #{String(photo.archiveNumber).padStart(3, "0")}
                   </span>
                   <div className="photo-frame">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      className="photo-image"
-                      src={photo.src}
-                      srcSet={srcSet}
-                      sizes="(max-width: 720px) calc(100vw - 40px), (max-width: 1200px) 46vw, 560px"
-                      width={photo.width}
-                      height={photo.height}
-                      alt={imageAlt(photo)}
-                      loading={index < 2 ? "eager" : "lazy"}
-                      decoding="async"
-                    />
+                    {photo.videoSrc ? (
+                      <div className="photo-video-frame">
+                        <video
+                          className="photo-video"
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                          preload="metadata"
+                          poster={photo.src}
+                          aria-label={imageAlt(photo)}
+                        >
+                          <source src={photo.videoSrc} type="video/mp4" />
+                        </video>
+                      </div>
+                    ) : (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        className="photo-image"
+                        src={photo.src}
+                        srcSet={srcSet}
+                        sizes="(max-width: 720px) calc(100vw - 40px), (max-width: 1200px) 46vw, 560px"
+                        width={photo.width}
+                        height={photo.height}
+                        alt={imageAlt(photo)}
+                        loading={index < 2 ? "eager" : "lazy"}
+                        decoding="async"
+                      />
+                    )}
                   </div>
                   <figcaption>
                     {photo.caption && <p className="photo-caption">{photo.caption}</p>}

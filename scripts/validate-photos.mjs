@@ -1,4 +1,5 @@
 import path from "node:path";
+import { stat } from "node:fs/promises";
 import sharp from "sharp";
 import { exists, publicFilePath, readPhotos } from "./photo-utils.mjs";
 
@@ -47,6 +48,11 @@ for (const [index, photo] of (Array.isArray(photos) ? photos : []).entries()) {
     else await validateLocalImage(file, label);
   }
   if (photo.dateTaken && Number.isNaN(Date.parse(photo.dateTaken))) errors.push(`${label} has an invalid dateTaken value.`);
+  if (photo.videoSrc) {
+    const file = publicFilePath(photo.videoSrc);
+    if (!file || path.extname(file).toLowerCase() !== ".mp4" || !(await exists(file))) errors.push(`${label} has a missing or unsafe video: ${photo.videoSrc}`);
+    else if ((await stat(file)).size === 0) errors.push(`${label} references an empty video: ${photo.videoSrc}`);
+  }
   for (const field of ["width", "height"]) if (photo[field] != null && (!Number.isInteger(photo[field]) || photo[field] <= 0)) errors.push(`${label} has an invalid ${field}.`);
   for (const variant of photo.variants || []) {
     const file = publicFilePath(variant.src);

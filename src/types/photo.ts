@@ -7,6 +7,7 @@ export type Photo = {
   id: string;
   archiveNumber: number;
   src: string;
+  videoSrc?: string;
   width?: number;
   height?: number;
   dateTaken?: string;

@@ -8,7 +8,7 @@ The photography archive lives at `/photography`. It is intentionally absent from
 - Metadata: `src/data/photos.json`
 - Type definition: `src/types/photo.ts`
 
-Each JSON record requires `id` and `src`. It can also contain `width`, `height`, `dateTaken` (ISO 8601), `location`, `camera`, `lens`, `caption`, `alt`, `album`, `featured`, generated responsive `variants`, and `sourceHash`. The page sorts valid dates newest-first; undated photos appear last. Never publish latitude or longitude. `sourceHash` prevents the same source image from being imported twice.
+Each JSON record requires `id` and `src`. It can also contain `width`, `height`, `dateTaken` (ISO 8601), `location`, `camera`, `lens`, `caption`, `alt`, `album`, `featured`, generated responsive `variants`, `videoSrc`, and `sourceHash`. Undated items appear first in upload order (`archiveNumber` ascending), followed by dated items newest-first. Never publish latitude or longitude. `sourceHash` prevents the same source media from being imported twice.
 
 ## Import photographs
 
@@ -32,7 +32,7 @@ Review every generated location. Override it by editing `location` in `src/data/
 
 ## Manual additions and removal
 
-To add a photo manually, place web-ready files under `public/photography/<year>/` and add one record to `src/data/photos.json`. Include intrinsic dimensions to prevent layout shift. Run `pnpm photos:validate` afterward.
+To add a photo manually, place web-ready files under `public/photography/<year>/` and add one record to `src/data/photos.json`. Include intrinsic dimensions to prevent layout shift. For a video, use a browser-compatible MP4 in `videoSrc` and a WebP poster in `src`; it will autoplay muted and loop. Run `pnpm photos:validate` afterward.
 
 To remove a photo, delete its JSON record and all files listed by its `src` and `variants`. The original source remains wherever you stored it. Validation catches leftover broken references, malformed dates/dimensions, duplicate IDs/hashes, and missing local files.
 

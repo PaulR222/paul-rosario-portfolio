@@ -1,5 +1,16 @@
 [
   {
+    "id": "video_0d0cd45fc766949a",
+    "archiveNumber": 28,
+    "src": "/photography/2026/2026-11-15-chicago-skyline-001-poster.webp",
+    "videoSrc": "/photography/2026/2026-11-15-chicago-skyline-001.mp4",
+    "width": 1280,
+    "height": 720,
+    "dateTaken": "2026-11-15T23:43:11.000Z",
+    "alt": "Chicago skyline at night filmed through a car window",
+    "sourceHash": "0d0cd45fc766949a3f63706deebd19acda4edbea5d863c5bc95dbb7bb1d25712"
+  },
+  {
     "id": "photo_415d1f01-78fc-4ab4-9188-4159ec37429b",
     "archiveNumber": 5,
     "src": "/photography/undated/2026-08-10-unknown-location-002-2250w.webp",
@@ -68,6 +79,60 @@
     "sourceHash": "bf7a866dd8020b626a0e079da59ef7cf0eb3a52920b54adb8aa39bacdaf037f3"
   },
   {
+    "id": "photo_30a96d64-6d44-444e-b462-f81105dfba97",
+    "archiveNumber": 30,
+    "src": "/photography/undated/2026-11-19-unknown-location-004-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "alt": "Street murals beside a DePaul University building",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-004-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-004-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-004-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-004-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "536ca8bba28324d6c3945de3c49ec5219c32a98ddf69385af0f94e9eda643af2"
+  },
+  {
+    "id": "photo_413c14bd-a01f-4c28-9647-3365739cd493",
+    "archiveNumber": 31,
+    "src": "/photography/undated/2026-11-19-unknown-location-005-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "alt": "Gnocchi with sausage and greens on a white plate",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-005-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-005-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-005-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-005-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "43a749dd5607de4b6f252d3a61489af2063b3aa0a25494a050cddac8a1bbfec6"
+  },
+  {
     "id": "photo_48855638-9dc1-45aa-8ebd-76f617bc7021",
     "archiveNumber": 19,
     "src": "/photography/undated/2026-10-18-unknown-location-005-2880w.webp",
@@ -120,6 +185,33 @@
       }
     ],
     "sourceHash": "b44b3226f0f0c2e28740f65694bcf747d2c73d9d50dd9972d0fbf130a7e65d9e"
+  },
+  {
+    "id": "photo_5bce1196-6a2f-40bd-b5eb-8b379cf913a0",
+    "archiveNumber": 26,
+    "src": "/photography/undated/2026-11-19-unknown-location-001-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "alt": "Self-portrait reflected in a parking garage mirror",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-001-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-001-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-001-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-001-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "348dd3d06cd556148c227c91eb69b19f02187b78bf22c58f7b8d80b45ad9d720"
   },
   {
     "id": "photo_6938193f-62d5-4fe1-b0fb-ac22cf5ee94a",
@@ -249,6 +341,25 @@
     "sourceHash": "a772c5d3c824c3258d69d978596f0220fd6a14b312004a2f899d3c67cd2ab4bc"
   },
   {
+    "id": "photo_9d955f1c-d773-4fe7-97ec-d40367ce6179",
+    "archiveNumber": 33,
+    "src": "/photography/undated/2026-11-19-unknown-location-007-1280w.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "FedEx truck beside the Van Buren Street station in Chicago",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-007-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-007-1280w.webp",
+        "width": 1280
+      }
+    ],
+    "sourceHash": "9f43df83d95fc66d26b903025a7934d160c9f336abb8a3ef716cae7925d35e17"
+  },
+  {
     "id": "photo_a05fa12a-6f22-44d3-818e-8cab338b0679",
     "archiveNumber": 7,
     "src": "/photography/undated/2026-08-24-unknown-location-001-1280w.webp",
@@ -320,6 +431,33 @@
       }
     ],
     "sourceHash": "ccb8d30693acad46526f32742d7bac054b43c9273713283aeb75dcd2f9accbed"
+  },
+  {
+    "id": "photo_aad32d3f-ed05-45ea-81b3-d5bbed22bf01",
+    "archiveNumber": 32,
+    "src": "/photography/undated/2026-11-19-unknown-location-006-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "alt": "Chicago skyline viewed along a city street at dusk",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-006-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-006-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-006-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-006-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "603f054c0a97161858305a2ca40349f4250d811b1cbccbbc166e0163b28af246"
   },
   {
     "id": "photo_ab79a4bd-ac75-4ba4-ab2c-87f740931617",
@@ -491,6 +629,33 @@
     "sourceHash": "8ec4e5de0b0f14640e721ec16ff00317ba7aa0ab4822e7d3717c18ef27608cd0"
   },
   {
+    "id": "photo_de51fcbf-711f-4dde-87bf-d0cd6055b901",
+    "archiveNumber": 29,
+    "src": "/photography/undated/2026-11-19-unknown-location-003-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "alt": "Donation box and Send Help sign on a counter",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-003-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-003-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-003-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-003-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "34aa49972c729310e3416bade9acf35e5307242fd11fee1687ac53b6a0aed6bc"
+  },
+  {
     "id": "photo_e516b8c6-212b-45e5-ae6a-1bdc34a82689",
     "archiveNumber": 10,
     "src": "/photography/undated/2026-09-05-unknown-location-001-1280w.webp",
@@ -550,6 +715,33 @@
       }
     ],
     "sourceHash": "8090d75138499712c190811d95ecd350db4a64d143298acc9c06781f73d2ca43"
+  },
+  {
+    "id": "photo_f47c55c2-e3b8-457e-8f5b-912852ec7ae6",
+    "archiveNumber": 27,
+    "src": "/photography/undated/2026-11-19-unknown-location-002-2880w.webp",
+    "width": 2880,
+    "height": 3840,
+    "alt": "City lights at night seen through an airplane window",
+    "variants": [
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-002-960w.webp",
+        "width": 960
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-002-1600w.webp",
+        "width": 1600
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-002-2400w.webp",
+        "width": 2400
+      },
+      {
+        "src": "/photography/undated/2026-11-19-unknown-location-002-2880w.webp",
+        "width": 2880
+      }
+    ],
+    "sourceHash": "dd309d634fa7c3ff05722c8d60df91b79f0e0d2901a1b4751a46b8a5a6c5c5ba"
   },
   {
     "id": "photo_fb2cb6f0-45a8-44b6-a98e-65fd6be1bf6e",

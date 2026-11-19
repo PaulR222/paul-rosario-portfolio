@@ -147,6 +147,8 @@ h1 { margin: 0; font-family: var(--font-roboto), Arial, sans-serif; font-size: c
 .photo-entry--layer-2 .photo-frame::before { transform: translate(-5px, 8px); }
 .photo-entry--layer-3 .photo-frame::before { display: none; }
 .photo-image { display: block; width: 100%; height: auto; background: #111; box-shadow: 0 14px 34px rgba(0,0,0,.22); }
+.photo-video-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #111; box-shadow: 0 14px 34px rgba(0,0,0,.22); }
+.photo-video { position: absolute; top: 50%; left: 50%; width: 56.25%; height: 177.78%; max-width: none; object-fit: fill; transform: translate(-50%, -50%) rotate(-90deg); }
 .photo-figure figcaption { padding: 18px 2px 0; }
 .photo-caption { margin: 0 0 9px; color: var(--photo-text); font-size: 13px; line-height: 1.55; }
 .photo-primary-meta, .photo-secondary-meta { margin: 0; font-size: 11px; line-height: 1.6; }
