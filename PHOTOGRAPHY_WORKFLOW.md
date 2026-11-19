@@ -8,7 +8,7 @@ The photography archive lives at `/photography`. It is intentionally absent from
 - Metadata: `src/data/photos.json`
 - Type definition: `src/types/photo.ts`
 
-Each JSON record requires `id` and `src`. It can also contain `width`, `height`, `dateTaken` (ISO 8601), `location`, `camera`, `lens`, `caption`, `alt`, `album`, `featured`, generated responsive `variants`, `videoSrc`, and `sourceHash`. Items appear in ascending `archiveNumber` order, matching the number above each photo or video. Dates are displayed only when available. Never publish latitude or longitude. `sourceHash` prevents the same source media from being imported twice.
+Each JSON record requires `id` and `src`. It can also contain `width`, `height`, `dateTaken` (ISO 8601), `location`, `camera`, `lens`, `caption`, `alt`, `album`, `featured`, generated responsive `variants`, `videoSrc`, and `sourceHash`. Items appear in descending `archiveNumber` order, with the largest number first. Dates are displayed only when available. Never publish latitude or longitude. `sourceHash` prevents the same source media from being imported twice.
 
 ## Import photographs
 
