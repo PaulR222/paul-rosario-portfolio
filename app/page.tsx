@@ -39,16 +39,22 @@ export default async function Home({
   return (
     <main className="access-page">
       <div className="access-card">
-        <p className="access-eyebrow">Paul Rosario</p>
-        <h1>Welcome</h1>
-        <p>This part of the site requires a password.</p>
+        <h1>Sneaky, sneaky...</h1>
+        <p>If you can guess the password, you can get in.</p>
         <form action={unlock}>
-          <label htmlFor="site-password">Password</label>
-          <input id="site-password" name="password" type="password" autoComplete="current-password" required autoFocus />
-          {invalidPassword && <p className="access-error" role="alert">That password didn&apos;t work. Please try again.</p>}
-          <button type="submit">Enter site</button>
+          <input
+            id="site-password"
+            name="password"
+            type="password"
+            aria-label="Password"
+            aria-invalid={invalidPassword}
+            autoComplete="current-password"
+            required
+            autoFocus
+          />
+          {invalidPassword && <span className="access-screen-reader-only" role="alert">Incorrect password</span>}
         </form>
-        <a href="/photography">View public photography →</a>
+        <a href="/photography">Photography</a>
       </div>
     </main>
   );
