@@ -1,5 +1,45 @@
 [
   {
+    "id": "video_a2335b69e02f4933",
+    "archiveNumber": 36,
+    "src": "/photography/2026/2026-11-19-river-bridge-001-poster-720w.webp",
+    "videoSrc": "/photography/2026/2026-11-19-river-bridge-001.mp4",
+    "videoPortrait": true,
+    "width": 720,
+    "height": 1280,
+    "dateTaken": "2026-11-19T23:40:50.000Z",
+    "camera": "Apple iPhone 16 Pro",
+    "alt": "River bridge and its reflection at sunset",
+    "sourceHash": "a2335b69e02f4933b46294c6b33f955eeb2b8d58f738873be846b0ba14fa2c20"
+  },
+  {
+    "id": "photo_ebbfdfc38b796dfa",
+    "archiveNumber": 35,
+    "src": "/photography/undated/2026-11-21-rice-bowl-001-2400w.webp",
+    "width": 2400,
+    "height": 1800,
+    "alt": "Rice and seasoned meat with orange sauce in a glass dish",
+    "variants": [
+      { "src": "/photography/undated/2026-11-21-rice-bowl-001-960w.webp", "width": 960 },
+      { "src": "/photography/undated/2026-11-21-rice-bowl-001-1600w.webp", "width": 1600 },
+      { "src": "/photography/undated/2026-11-21-rice-bowl-001-2400w.webp", "width": 2400 }
+    ],
+    "sourceHash": "ebbfdfc38b796dfadd0e4c6b22cb834911e81f649b9b3ff1a64e891d69ae6b9a"
+  },
+  {
+    "id": "photo_61849e545f3de974",
+    "archiveNumber": 34,
+    "src": "/photography/undated/2026-11-21-hamburgers-roadside-001-1280w.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Hamburgers restaurant across a road beneath a cloudy sky",
+    "variants": [
+      { "src": "/photography/undated/2026-11-21-hamburgers-roadside-001-960w.webp", "width": 960 },
+      { "src": "/photography/undated/2026-11-21-hamburgers-roadside-001-1280w.webp", "width": 1280 }
+    ],
+    "sourceHash": "61849e545f3de974cbd736ac286cf6ed831eca6d287258d88f6bf4012904d748"
+  },
+  {
     "id": "video_0d0cd45fc766949a",
     "archiveNumber": 28,
     "src": "/photography/2026/2026-11-15-chicago-skyline-001-poster.webp",

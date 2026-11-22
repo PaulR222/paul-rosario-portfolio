@@ -52,9 +52,9 @@ export default function PhotographyPage() {
                   </span>
                   <div className="photo-frame">
                     {photo.videoSrc ? (
-                      <div className="photo-video-frame">
+                      <div className={`photo-video-frame${photo.videoPortrait ? " photo-video-frame--portrait" : ""}`}>
                         <video
-                          className="photo-video"
+                          className={`photo-video${photo.videoPortrait ? " photo-video--portrait" : ""}`}
                           autoPlay
                           loop
                           muted
